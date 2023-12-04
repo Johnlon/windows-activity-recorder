@@ -31,7 +31,14 @@ The log files should be openable in excel.
 
 NB: If you open the file in most windows apps then the file will be locked and will stop recording updates until you close the file.
 
-The format of the log file is:    `datetime,process-name,window-title,time-spent-in-window`
+The format of the log file is:    `datetime, time-spent-in-window, program-name, window-title`
+
+For example:
+`
+datetime            ,duration  ,program             ,title
+04/12/2023 22:27:35 ,51        ,Code                ,Program.cs - windows-activity-recorder - Visual Studio Code
+04/12/2023 22:30:55 ,2         ,Code                ,Program.cs - windows-activity-recorder - Visual Studio Code
+`
 
 New entries are written to the log file when the window focus is changed and/or every 60 seconds.
 
