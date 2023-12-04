@@ -14,10 +14,10 @@ But, if you install dotnet alone then its possible to build from the command lin
 dotnet build Recorder.sln
 `
 
-I used dotnet 8 as that was current at the time and the binary gets written to ....
+I used dotnet 6 as that was current at the time and the binary gets written to ....
 
 `
-bin\Debug\net8.0\Recorder.exe
+bin\Debug\net6.0\Recorder.exe
 `
 
 
